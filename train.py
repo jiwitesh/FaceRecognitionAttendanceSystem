@@ -307,12 +307,12 @@ def callback(url):
                         
     
 # create a toplevel menu
-menubar = Menu(window)
+"""menubar = Menu(window)
 menubar.add_command(label="RegisterNewUser", command=openRegistrationPage)
-menubar.add_command(label="MarkYourAttendance!", command=window.quit)
+menubar.add_command(label="MarkYourAttendance!", command=window.quit)"""
 
 # display the menu
-window.config(menu=menubar)
+#window.config(menu=menubar)
 
 def getRandomNumber():
     ability = str(random.randint(1,10))
